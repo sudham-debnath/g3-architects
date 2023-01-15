@@ -309,7 +309,7 @@ section.sponsors {
     width: 135px;
 }
 
-/* Subscribe Section Styles */
+/* Send E-mail Section Styles */
 
 .subscribe {
     margin-top: 40px;
@@ -348,7 +348,7 @@ section.cta-section {
 footer {
     background-color: #FFF4E7;
     border-radius: 8px;
-    margin-left: 120px;
+    margin-left: 150px;
     width: 900px;
     height: 5px;
 }
@@ -366,3 +366,64 @@ footer {
     text-align: center;
     margin-top: 0;
 }
+
+
+/* Mobile Responsive Styles */
+
+
+@media screen and (max-width: 576px) {
+
+    .nav-bar {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .features-item {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        justify-items: center;
+    }
+    
+    .quick-list {
+        display: flex;
+        gap: 70px;
+        margin-top: 100px;
+        margin-bottom: 120px;
+        margin-left: 50px;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .brand-banner img {
+        width: 400px;
+        height: 200px;
+        margin-top: 50px;
+        margin-left: 50px;
+        margin-bottom: 50px;
+    }
+
+    .company {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer {
+        background-color: #FFF4E7;
+        border-radius: 8px;
+        margin-left: 0px;
+        width: 100px;
+        height: 5px;
+    }
+
+    }
