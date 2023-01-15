@@ -108,12 +108,20 @@ header {
     margin-top: 110px;
 }
 
+.quick-list-features-title h2 {
+    font-weight: 500;
+    font-size: 45px;
+}
+
 .quick-list-features-title span:nth-child(1) {
-    font-weight: 400;
+    font-weight: 500;
+    font-size: 45px;
     color: #727272;
 }
 
 .quick-list-features-title span:nth-child(2) {
+    font-weight: 500;
+    font-size: 45px;
     color: #FF900E;
 }
 
@@ -219,6 +227,8 @@ header {
 .facts-intro h2 {
     margin-left: 70px;
     margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 45px;
 }
 
 .facts-intro p {
@@ -236,12 +246,18 @@ header {
     text-align: center;
     border: 1.5px solid #FF900E;
     border-radius: 8px;
-    width: 160px;
-    height: 160px;
+    width: 200px;
+    height: 200px;
     transition: 0.3s;
 }
 
-.fact img{
+.fact {
+    width: 150px;
+    height: 120px;
+    margin-left: 20px;
+}
+
+.facts-item .fact img {
     padding: 5px;
 }
 
@@ -261,4 +277,92 @@ header {
     background: skyblue;
     box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.11);
     margin-top: -9px;
+}
+
+
+/* Sponsors Section Styles */
+
+
+section.sponsors {
+    margin-bottom: 100px;
+}
+
+.sponsors-intro h2 {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.company {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.sponsors-intro {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.company img {
+    filter: grayscale(100%);
+    width: 135px;
+}
+
+/* Subscribe Section Styles */
+
+.subscribe {
+    margin-top: 40px;
+}
+
+section.cta-section {
+    background-color: #e6fcff;
+    border-radius: 8px;
+    text-align: center;
+    padding: 140px 0;
+    margin-bottom: 100px;
+}
+
+.subscribe input[type=email] {
+    padding: 18px 22px;
+    border: none;
+    outline: none;
+    margin: -5px;
+    border-radius: 6px 0px 0px 6px;
+}
+
+.subscribe input[type=button] {
+    border: none;
+    padding: 18px 22px;
+    background-color: #FF900E;
+    font-weight: 600;
+    color: #ffffff;
+    border-radius: 0px 6px 6px 0px;
+    cursor: pointer;
+}
+
+
+/* Footer Styles */
+
+
+footer {
+    background-color: #FFF4E7;
+    border-radius: 8px;
+    margin-left: 120px;
+    width: 900px;
+    height: 5px;
+}
+
+.footer-style {
+    
+    padding: 35px;
+  
+    color: #424242;
+    margin-bottom: 100px;
+}
+
+.footer-style h4 {
+    font-weight: 500;
+    text-align: center;
+    margin-top: 0;
 }
